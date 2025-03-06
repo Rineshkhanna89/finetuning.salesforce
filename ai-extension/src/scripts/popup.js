@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         { value: 'gpt-3.5-turbo', label: 'GPT-3.5 Turbo' }
       ] ,
       testleaf: [
-        { value: 'ft:gpt-4o-mini-2024-07-18:testleaf::B5pmju86', label: 'tl-model' },
+        { value: 'ft:gpt-4o-mini-2024-07-18:testleaf::B7wocRz0', label: 'tl-model' },
       ]
     };
     
