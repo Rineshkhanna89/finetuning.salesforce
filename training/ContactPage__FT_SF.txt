@@ -1,0 +1,47 @@
+===HTML===
+<div title="New" data-aura-rendered-by="3224:0"><!--render facet: 3225:0-->New</div>
+
+<input class="slds-input" part="input" lwc-enmikoh2qu="" aria-label="Search this list..." id="input-990" name="Contact-search-input" placeholder="Search this list..." type="search" aria-describedby="listviewSearchTooltip-980 help-message-990">
+
+<div class="slds-grid slds-grid--align-spread slds-align_absolute-center checkbox-container slds-checkbox uiInput forceVirtualCheckbox uiInput--default" data-aura-rendered-by="6002:0" data-aura-class="uiInput forceVirtualCheckbox uiInput--default"><input tabindex="0" id="5998:0__1" type="checkbox" class="keyboardMode--trigger" data-aura-rendered-by="6003:0" data-interactive-lib-uid="21" aria-label="Select item 1"><span class="slds-checkbox--faux slds-checkbox_faux" data-aura-rendered-by="6004:0"></span></div>
+
+<span data-aura-rendered-by="6166:0"><svg class="slds-icon slds-icon-text-default slds-icon_xx-small" focusable="false" aria-hidden="true" data-key="down">
+<use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg?cache=10.8.2#down"></use>
+</svg></span>
+
+===JAVA===
+
+package com.salesforce.pages;
+
+import java.util.List;
+import org.openqa.selenium.WebElement;
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+
+public class ContactPage extends ProjectSpecificMethods {
+
+	public CreateContactPage clickNewContact() {
+		click(locateElement(Locators.XPATH, "//div[text()='New']"));
+		reportStep("Cliked New button Successfully", "pass");
+		return new CreateContactPage();
+	}
+	
+	public ContactPage searchContact(String contactName) {
+		typeAndEnter(locateElement(Locators.XPATH, "(//input[@type='search'])[2]"), contactName);
+		reportStep("Search for Existing Contact is Successful", "pass");
+			return this;
+	}
+     public EditContactPage selectEdit() {
+		pause(3000);
+		click(locateElement(Locators.XPATH, "//span[@class='slds-icon_container slds-icon-utility-down']/span"));
+		reportStep("Edit Contact is selelcted Successfully", "pass");
+		return new EditContactPage();
+	}
+
+public ContactPage selectCheckBox() {
+		pause(3000);
+		click(locateElement(Locators.XPATH, "//div/following::span[@class='slds-checkbox--faux slds-checkbox_faux'][1]A"));
+		reportStep(" Contact checkbox is selelcted Successfully", "pass");
+		return  this;
+	}
+}

@@ -1,0 +1,96 @@
+===HTML===
+<div title="New" data-aura-rendered-by="741:0"><!--render facet: 742:0-->New</div>
+
+<div data-aura-rendered-by="438:1193;a" class="uiInput uiInputSelect forceInputPicklist uiInput--default uiInput--select" data-aura-class="uiInput uiInputSelect forceInputPicklist uiInput--default uiInput--select"><span class="uiPicklistLabel-top form-element__label uiPicklistLabel" data-aura-rendered-by="433:1193;a" data-aura-class="uiPicklistLabel"><span id="84:1193;a-label" class="" data-aura-rendered-by="434:1193;a">Salutation</span><!--render facet: 436:1193;a--><!--render facet: 437:1193;a--></span><div class="salutation compoundTLRadius compoundTRRadius compoundBorderBottom form-element__row uiMenu" data-aura-rendered-by="117:1193;a" data-aura-class="uiMenu"><div id="91:1193;a" data-aura-rendered-by="98:1193;a" class="uiPopupTrigger" data-aura-class="uiPopupTrigger" data-interactive-uid="2"><div data-aura-rendered-by="100:1193;a" data-proxy-id="aura-pos-lib-4" id="100:1193;a"><div data-aura-rendered-by="93:1193;a"><a aria-disabled="false" role="combobox" aria-describedby="84:1193;a-label" tabindex="0" aria-expanded="false" aria-required="false" aria-haspopup="true" title="" class="select" data-aura-rendered-by="94:1193;a" href="javascript:void(0);" data-interactive-lib-uid="4">--None--</a></div></div></div></div></div>
+
+<div data-aura-rendered-by="457:1193;a" class="uiInput uiInputText uiInput--default uiInput--input" data-aura-class="uiInput uiInputText uiInput--default uiInput--input"><label for="133:1193;a" class="uiLabel-top form-element__label uiLabel" data-aura-rendered-by="452:1193;a" data-aura-class="uiLabel"><span id="133:1193;a-label" class="" data-aura-rendered-by="453:1193;a">Last Name</span><!--render facet: 455:1193;a--><span id="133:1193;a-required" title="required" class="required " data-aura-rendered-by="134:1193;a">*</span></label><input aria-labelledby="133:1193;a-label 133:1193;a-required" maxlength="80" aria-describedby="" id="133:1193;a" placeholder="Last Name" type="text" class="lastName compoundBLRadius compoundBRRadius form-element__row input" required="" data-aura-rendered-by="137:1193;a" data-interactive-lib-uid="3" aria-required="true"></div>
+
+<button aria-live="off" type="button" title="Save" class="slds-button slds-button_neutral uiButton--brand uiButton forceActionButton" aria-label="" data-aura-rendered-by="589:1193;a" data-aura-class="uiButton forceActionButton"><!--render facet: 590:1193;a--><span dir="ltr" class=" label bBody" data-aura-rendered-by="592:1193;a">Save</span><!--render facet: 587:1193;a--></button>
+
+<div data-key="success" class="slds-theme--success slds-notify--toast slds-notify slds-notify--toast forceToastMessage" data-aura-rendered-by="4890:0" data-aura-class="forceToastMessage" data-f6-region=""><span role="hidden" tabindex="0" data-toast-start="" data-aura-rendered-by="4892:0"></span><div tabindex="0" class="slds-list--inline" data-aura-rendered-by="4893:0"><lightning-icon icon-name="utility:success" class="slds-icon-utility-success toastIcon slds-m-right--small slds-no-flex slds-align-top slds-icon_container" data-data-rendering-service-uid="1442" data-aura-rendered-by="4895:0" lwc-4897l11qtae-host=""><span lwc-4897l11qtae="" style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, transparent)" part="boundary"><lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="small" variant="inverse" lwc-601m5kls2of-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-601m5kls2of="" data-key="success" class="slds-icon slds-icon_small"><g lwc-601m5kls2of=""><path d="M260 20a240 240 0 100 480 240 240 0 100-480zm134 180L241 355c-6 6-16 6-22 0l-84-85c-6-6-6-16 0-22l22-22c6-6 16-6 22 0l44 45a10 10 0 0015 0l112-116c6-6 16-6 22 0l22 22c7 6 7 16 0 23z" lwc-601m5kls2of=""></path></g></svg></lightning-primitive-icon><span class="slds-assistive-text" lwc-4897l11qtae="">Success notification.</span></span></lightning-icon><div class="toastContent slds-notify__content slds-align-middle" data-aura-rendered-by="4896:0"><div class="slds-hyphenate" data-aura-rendered-by="4897:0"><!--render facet: 4898:0--><div id="toastDescription4888:0" data-aura-rendered-by="4899:0"><span class="toastMessage slds-text-heading--small forceActionsText" data-aura-rendered-by="4904:0" data-aura-class="forceActionsText">Individual "Arn1 rav1" was created.</span></div></div><span class="slds-assistive-text" data-aura-rendered-by="4910:0">Press Control + F6 to navigate to the next toast notification or focusable region.</span></div><div class="slds-notify__close" data-aura-rendered-by="4913:0"><button class="slds-button slds-button_icon toastClose slds-button_icon-inverse slds-button_icon-bare" data-aura-rendered-by="4914:0"><span aria-hidden="true" data-aura-rendered-by="4915:0"><lightning-icon icon-name="utility:close" class="slds-icon-utility-close slds-icon_container" data-aura-rendered-by="4916:0" lwc-4897l11qtae-host=""><span lwc-4897l11qtae="" style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, transparent)" part="boundary"><lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="xx-small" variant="inverse" lwc-3bq099ugqsh-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-3bq099ugqsh="" data-key="close" class="slds-icon slds-icon_xx-small"><g lwc-3bq099ugqsh=""><path d="M310 254l130-131c6-6 6-15 0-21l-20-21c-6-6-15-6-21 0L268 212a10 10 0 01-14 0L123 80c-6-6-15-6-21 0l-21 21c-6 6-6 15 0 21l131 131c4 4 4 10 0 14L80 399c-6 6-6 15 0 21l21 21c6 6 15 6 21 0l131-131a10 10 0 0114 0l131 131c6 6 15 6 21 0l21-21c6-6 6-15 0-21L310 268a10 10 0 010-14z" lwc-3bq099ugqsh=""></path></g></svg></lightning-primitive-icon></span></lightning-icon></span><span class="slds-assistive-text" data-aura-rendered-by="4917:0">Close</span></button></div></div><span role="hidden" tabindex="0" data-toast-end="" data-aura-rendered-by="4920:0"></span></div>
+
+<a href="javascript:void(0);" title="Delete" data-aura-rendered-by="7701:0" class="forceActionLink" data-aura-class="forceActionLink" role="button"><div title="Delete" data-aura-rendered-by="7702:0"><!--render facet: 7703:0-->Delete</div></a>
+
+===JAVA===
+
+package com.salesforce.pages;
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+public class IndividualsPage extends ProjectSpecificMethods {
+	public IndividualsPage clickNewButton() {
+
+		click(locateElement(Locators.XPATH, "//div[text()='New']"));
+		reportStep("New Button clicked successfully", "pass");
+		return this;
+	}
+	public IndividualsPage selectSalutation() {
+
+		click(locateElement(Locators.XPATH, "//span[text()='Salutation']/following::a[1]"));
+		click(locateElement(Locators.XPATH, "//a[text()='Mr.']"));
+		reportStep(" Mr. selected successfully", "pass");
+		return this;
+	}
+	public IndividualsPage enterFirstName(String fName) {
+		clearAndType(locateElement(Locators.XPATH, "//span[text()='First Name']/following::input[1]"), fName);
+		reportStep(fName + "First Name entered successfully", "pass");
+		return this;
+	}
+	public IndividualsPage enterLastName(String lName) {
+		clearAndType(locateElement(Locators.XPATH, "//span[text()='Last Name']/following::input[1]"), lName);
+		reportStep(lName + "Last Name entered successfully", "pass");
+		return this;
+	}
+	public IndividualsPage clickSaveButton() {
+
+		click(locateElement(Locators.XPATH, "//button[@title='Save']"));
+		reportStep("Save Button clicked successfully", "pass");
+		return this;
+	}
+	public IndividualsPage verifyCreateIndividuals(String text) {
+		verifyPartialText(locateElement(Locators.XPATH,
+				"//span[@class='toastMessage slds-text-heading--small forceActionsText']"), text);
+		reportStep(text + "Name Matches is loaded", "pass");
+		return this;
+	}
+	public IndividualsPage enterIndividualSearchField(String search) {
+		typeAndEnter(locateElement(Locators.XPATH, "//input[@placeholder='Search this list...']"), search);
+		reportStep(search + "Search Field entered successfully", "pass");
+		return this;
+	}
+	public IndividualsPage clickShowActionDD() {
+
+		click(locateElement(Locators.XPATH,
+				"//div[@class='forceVirtualActionMarker forceVirtualAction']/a[@role='button']"));
+		reportStep("Show Actions DD clicked successfully", "pass");
+		return this;
+	}
+	public IndividualsPage clickDeleteLink() {
+
+		click(locateElement(Locators.XPATH, "//a[@title='Delete']"));
+		reportStep("Delete Link is clicked successfully", "pass");
+		return this;
+	}
+	public IndividualsPage clickPoupDeleteButton() {
+
+		click(locateElement(Locators.XPATH, "//span[text()='Delete']"));
+		reportStep("Delete Button is clicked successfully", "pass");
+		return this;
+	}
+	public IndividualsPage verifyDeleteIndividuals(String text) {
+		verifyPartialText(locateElement(Locators.XPATH,"//span[contains(@class,'toastMessage')]"), text);
+		reportStep(text + "Name Matches is loaded", "pass");
+		return this;
+	}
+	public IndividualsPage clickEditLink() {
+
+        click(locateElement(Locators.XPATH, "//a[@title='Edit']"));
+        reportStep("Edit Link is clicked successfully", "pass");
+        return this;
+    }
+	public IndividualsPage verifyEditIndividuals(String text) {
+        verifyPartialText(locateElement(Locators.XPATH,
+                "//span[@class='toastMessage slds-text-heading--small forceActionsText']"), text);
+        reportStep(text + "Name Matches is loaded", "pass");
+        return this;
+	}
+}

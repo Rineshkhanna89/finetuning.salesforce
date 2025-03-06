@@ -1,0 +1,63 @@
+
+===HTML===
+
+<input class="slds-input" part="input" lwc-enmikoh2qu="" aria-invalid="false" id="input-1271" maxlength="40" name="Phone" type="text" aria-describedby="help-message-1271">
+
+<input lwc-2fb3f2nu4or="" class="slds-input" type="text" id="input-1313" part="input" name="Birthdate" autocomplete="off" aria-describedby="error-message-1313 fmt-text-1313">
+
+ ===JAVA===
+
+
+package com.salesforce.pages;
+
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+
+public class VerifyEditContactPage extends ProjectSpecificMethods{
+
+
+public VerifyEditContactPage verifyToastMessage() {
+	String editedtext = getElementText(locateElement(Locators.XPATH, 
+			"//span[contains(@class,'toastMessage slds-text-heading--small forceActionsText')]"));
+	//System.out.println(editedtext);
+	
+	String updatedPhno = getElementText(locateElement(Locators.XPATH, 
+			"//span[@class='forceOutputPhone slds-truncate']"));	
+	
+	//System.out.println(updatedPhno);
+		reportStep("Verified the updated Contact with phone number "+updatedPhno+ " Successfully", "pass");
+	return this;
+	
+}
+
+	// Method to verify the Phone Number
+	public VerifyEditContactPage verifyPhoneNumber(String expectedPhoneNumber) {
+		// Retrieve the actual phone number from the input field
+		String actualPhoneNumber = getAttribute(locateElement(Locators.XPATH,
+				"//input[@name='Phone']"), "value");
+
+		// Compare the actual and expected phone numbers
+		if (actualPhoneNumber.equals(expectedPhoneNumber)) {
+			reportStep("Phone Number is verified successfully. Expected: " + expectedPhoneNumber + ", Actual: " + actualPhoneNumber, "pass");
+		} else {
+			reportStep("Phone Number verification failed. Expected: " + expectedPhoneNumber + ", Actual: " + actualPhoneNumber, "fail");
+		}
+
+		return this;
+	}
+
+	public VerifyEditContactPage verifyBirthdate(String expectedBirthdate) {
+		// Retrieve the actual birthdate from the input field
+		String actualBirthdate = getAttribute(locateElement(Locators.XPATH,
+				"//input[@name='Birthdate']"), "value");
+
+		// Compare the actual and expected birthdates
+		if (actualBirthdate.equals(expectedBirthdate)) {
+			reportStep("Birthdate is verified successfully. Expected: " + expectedBirthdate + ", Actual: " + actualBirthdate, "pass");
+		} else {
+			reportStep("Birthdate verification failed. Expected: " + expectedBirthdate + ", Actual: " + actualBirthdate, "fail");
+		}
+
+		return this;
+	}
+}

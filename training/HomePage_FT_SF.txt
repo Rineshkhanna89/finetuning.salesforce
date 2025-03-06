@@ -1,0 +1,93 @@
+===HTML===
+
+<span class="title slds-truncate" data-aura-rendered-by="570:0">Home</span>
+
+<div class="slds-icon-waffle"><div class="slds-r1"></div><div class="slds-r2"></div><div class="slds-r3"></div><div class="slds-r4"></div><div class="slds-r5"></div><div class="slds-r6"></div><div class="slds-r7"></div><div class="slds-r8"></div><div class="slds-r9"></div><span class="slds-assistive-text">App Launcher</span></div>
+
+<button lwc-40a585din3p="" class="slds-button" aria-disabled="false" type="button" aria-label="View All Applications" aria-haspopup="dialog" part="button" kx-scope="button" kx-type="underline" style="">View All</button>
+
+<input class="slds-input" part="input" lwc-enmikoh2qu="" id="input-182" placeholder="Search apps or items..." type="search" aria-describedby="help-message-182" aria-autocomplete="list" autocomplete="off" role="combobox" aria-activedescendant="" aria-expanded="true">
+
+<p class="slds-truncate" lwc-4nfn2rc40ch="">Individuals</p>
+
+<p class="slds-truncate" lwc-4nfn2rc40ch="">Work Type Groups</p>
+
+<p style="display: inline;" class="slds-truncate" lwc-4nfn2rc40ch="">Service</p>
+<p style="display: inline" class="slds-truncate chromexPathFinder1" lwc-4nfn2rc40ch="" rutoxpath="ruto">Sales</p>
+
+<span lwc-4nfn2rc40ch="" part="formatted-rich-text"><p class="slds-truncate" lwc-4nfn2rc40ch="">Tasks</p></span>
+
+<div lwc-enmikoh2qu="" class="slds-form-element__control slds-grow slds-input-has-icon slds-input-has-icon_left-right" part="input-container" type="search"><input class="slds-input" part="input" lwc-enmikoh2qu="" id="input-182" placeholder="Search apps or items..." type="search" aria-describedby="help-message-182" aria-autocomplete="list" autocomplete="off" role="combobox" aria-activedescendant="" aria-expanded="true"><lightning-primitive-icon lwc-enmikoh2qu="" variant="bare" lwc-45bd2ao4vb7-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-45bd2ao4vb7="" data-key="search" class="slds-input__icon slds-input__icon_left slds-icon-text-default"><g lwc-45bd2ao4vb7=""><path d="M496 453L362 320a189 189 0 10-340-92 190 190 0 00298 135l133 133a14 14 0 0021 0l21-21a17 17 0 001-22zM210 338a129 129 0 11130-130 129 129 0 01-130 130z" lwc-45bd2ao4vb7=""></path></g></svg></lightning-primitive-icon><div lwc-enmikoh2qu="" class="slds-input__icon-group slds-input__icon-group_right"></div></div>
+
+<span lwc-4nfn2rc40ch="" part="formatted-rich-text"><p class="slds-truncate" lwc-4nfn2rc40ch="">Contacts</p></span>
+
+
+===JAVA===
+package com.salesforce.pages;
+
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+
+public class HomePage extends ProjectSpecificMethods {
+
+	public HomePage verifyHomePage() {
+		verifyDisplayed(locateElement(Locators.XPATH, "//span[text()='Home']"));
+		reportStep("Homepage is loaded", "pass");
+		return this;
+	}
+	public HomePage clickAppLauncher() {
+
+		click(locateElement(Locators.XPATH, "//div[@class='slds-icon-waffle']"));
+		reportStep("Toggle Menu button clicked successfully", "pass");
+		return this;
+	}
+	public HomePage clickViewAll() {
+
+		click(locateElement(Locators.XPATH, "//button[text()='View All']"));
+		reportStep("View All link clicked successfully", "pass");
+		return this;
+	}
+	public HomePage enterSearchField(String search) {
+		clearAndType(locateElement(Locators.XPATH, "//input[@placeholder='Search apps or items...']"), search);
+		reportStep("Search Field entered successfully", "pass");
+		return this;
+	}
+	public IndividualsPage clickIndividualsLink() {
+
+		click(locateElement(Locators.XPATH, "//p[text()='Individuals']"));
+		reportStep("Individuals link clicked successfully", "pass");
+		return new IndividualsPage();
+	}
+	public WorkTypeGroupPage clickWorkTypeGroupLink() {
+
+		click(locateElement(Locators.XPATH, "//p[text()='Work Type Groups']"));
+		reportStep("Work Type Groups link clicked successfully", "pass");
+		return new WorkTypeGroupPage();
+	}
+	public HomePage clickSales() {
+		click(locateElement(Locators.XPATH, "(//p[text()='Service']/following::p[text()='Sales']"));
+		reportStep("Sales is clicked sucessfully", "pass");
+		return this;
+	}
+	public TasksPage clickTasksTab() {
+		clickUsingJs(locateElement(Locators.XPATH, "//span[text()='Tasks']"));
+		reportStep("Tasks Tab is clicked sucessfully", "pass");
+		return new TasksPage();
+	}
+	public HomePage typeSales() {
+		typeAndEnter(locateElement(Locators.XPATH, "//div[contains(@class,'slds-form-element__control slds-grow')]//input[1]") ,"Sales");
+		reportStep("Search for sales is done successfully", "pass");
+
+		return this;
+		
+	}
+	public ContactPage clickContact() {
+		
+		clickUsingJs(locateElement(Locators.XPATH, "//span[text()='Contacts']"));
+		reportStep("Clicked Contacts Successfully", "pass");
+
+	    		 return new ContactPage();
+	}	
+	
+}
+

@@ -1,0 +1,35 @@
+===HTML===
+<input class="slds-input" part="input" lwc-enmikoh2qu="" id="input-5311" maxlength="120" name="Name" required="" type="text" aria-describedby="help-message-5311" aria-invalid="true">
+
+<td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-02-24" aria-label="2025-02-24" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">24</span></td>
+
+<button lwc-4kb6kaqheak="" class="slds-combobox__input slds-input_faux fix-slds-input_faux slds-combobox__input-value" id="combobox-button-5325" type="button" aria-expanded="false" aria-haspopup="listbox" role="combobox" data-value="--None--" aria-disabled="false" aria-label="Stage" aria-required="true" part="input-button" aria-controls="dropdown-element-5325" data-position-id="lgcp-1000417" aria-errormessage="help-text-5324"><span lwc-4kb6kaqheak="" class="slds-truncate" part="input-button-value">--None--</span></button>
+
+<span lwc-7co8ha3nedg="" title="Needs Analysis">Needs Analysis</span>
+
+===JAVA===
+
+package com.salesforce.pages;
+
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+
+public class CreateOpportunityPage extends ProjectSpecificMethods {
+
+	public CreateOpportunityPage enterOpportunity(String oppName) {
+		clearAndType(locateElement(Locators.XPATH, "//label[contains(text(),'Opportunity Name')]//following::input[1]"),oppName);
+		return this;
+	}
+
+	public CreateOpportunityPage selectDate() {
+		click(locateElement(Locators.XPATH, "//tr/td[@data-value='2025-02-24']"));
+		return this;
+	}
+
+	public CreateOpportunityPage selectStage() {
+		click(locateElement(Locators.XPATH, "//div[contains(@class,'slds-combobox__form-element slds-input-has-icon')]//button"));
+		clickUsingJs(locateElement(Locators.XPATH, "//span[text()='Needs Analysis']"));
+		return this;
+	}
+
+}

@@ -1,0 +1,130 @@
+===HTML===
+<span class="slds-icon_container slds-icon-utility-down" data-aura-rendered-by="7772:0"><span data-aura-rendered-by="7775:0"><svg class="slds-icon slds-icon-text-default slds-icon_xx-small" focusable="false" aria-hidden="true" data-key="down">
+<use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg?cache=10.8.2#down"></use>
+</svg></span><span class="slds-assistive-text" data-aura-rendered-by="7777:0">Show Actions</span></span>
+
+<a data-target-selection-name="sfdc:StandardButton.Contact.Edit" data-aura-rendered-by="7933:0" href="javascript:void(0);" role="menuitem" aria-disabled="false" tabindex="0" title="Edit"><!--render facet: 7858:0--><div title="Edit" data-aura-rendered-by="7960:0" class="forceActionLink" data-aura-class="forceActionLink"><!--render facet: 7961:0-->Edit</div></a>
+
+<input class="slds-input" part="input" lwc-enmikoh2qu="" aria-invalid="false" id="input-3899" maxlength="40" name="Phone" type="text" aria-describedby="help-message-3899">
+
+<div lwc-34n15cmj79s="" class="footer-full-width">
+   <div lwc-34n15cmj79s="" class="center-align-buttons">
+      <div lwc-34n15cmj79s="">
+         <runtime_platform_actions-actions-ribbon lwc-34n15cmj79s="">
+            <slot name="actionsProvider">
+               <runtime_platform_actions-provider-record-edit lwc-34n15cmj79s="" slot="actionsProvider"></runtime_platform_actions-provider-record-edit>
+            </slot>
+            <ul class="slds-button-group-row" role="presentation" style="--sds-c-icon-color-foreground-default: var(--lwc-brandTextLink, rgb(1, 118, 211));">
+               <li class="slds-button-group-item visible" data-target-selection-name="" role="presentation">
+                  <runtime_platform_actions-action-renderer apiname="CancelEdit" title="Cancel">
+                     <runtime_platform_actions-executor-lwc-headless>
+                        <slot>
+                           <slot>
+                              <lightning-button variant="neutral" lwc-40a585din3p-host=""><button lwc-40a585din3p="" class="slds-button slds-button_neutral" aria-disabled="false" name="CancelEdit" type="button" part="button" kx-scope="button-neutral" kx-type="ripple">Cancel</button></lightning-button>
+                           </slot>
+                        </slot>
+                        <slot class="slds-hide" name="lwcaction">
+                           <runtime_platform_actions-lwc-action slot="lwcaction">
+                              <runtime_platform_actions-action-headless-form-cancel></runtime_platform_actions-action-headless-form-cancel>
+                           </runtime_platform_actions-lwc-action>
+                        </slot>
+                     </runtime_platform_actions-executor-lwc-headless>
+                  </runtime_platform_actions-action-renderer>
+               </li>
+               <li class="slds-button-group-item visible" data-target-selection-name="" role="presentation">
+                  <runtime_platform_actions-action-renderer apiname="SaveAndNew" title="Save &amp; New">
+                     <runtime_platform_actions-executor-lwc-headless>
+                        <slot>
+                           <slot>
+                              <lightning-button variant="neutral" lwc-40a585din3p-host=""><button lwc-40a585din3p="" class="slds-button slds-button_neutral" aria-disabled="false" name="SaveAndNew" type="button" part="button" kx-scope="button-neutral" kx-type="ripple">Save &amp; New</button></lightning-button>
+                           </slot>
+                        </slot>
+                        <slot class="slds-hide" name="lwcaction">
+                           <runtime_platform_actions-lwc-action slot="lwcaction">
+                              <runtime_platform_actions-action-headless-form-save-and-new></runtime_platform_actions-action-headless-form-save-and-new>
+                           </runtime_platform_actions-lwc-action>
+                        </slot>
+                     </runtime_platform_actions-executor-lwc-headless>
+                  </runtime_platform_actions-action-renderer>
+               </li>
+               <li class="slds-button-group-item visible" data-target-selection-name="" role="presentation">
+                  <runtime_platform_actions-action-renderer apiname="SaveEdit" title="Save">
+                     <runtime_platform_actions-executor-lwc-headless>
+                        <slot>
+                           <slot>
+                              <lightning-button variant="brand" lwc-40a585din3p-host=""><button lwc-40a585din3p="" class="slds-button slds-button_brand" aria-disabled="false" name="SaveEdit" type="button" part="button" kx-scope="button-brand" kx-type="ripple">Save</button></lightning-button>
+                           </slot>
+                        </slot>
+                        <slot class="slds-hide" name="lwcaction">
+                           <runtime_platform_actions-lwc-action slot="lwcaction">
+                              <runtime_platform_actions-action-headless-form-save></runtime_platform_actions-action-headless-form-save>
+                           </runtime_platform_actions-lwc-action>
+                        </slot>
+                     </runtime_platform_actions-executor-lwc-headless>
+                  </runtime_platform_actions-action-renderer>
+               </li>
+            </ul>
+         </runtime_platform_actions-actions-ribbon>
+      </div>
+   </div>
+   <force-duplicates-manager lwc-34n15cmj79s=""></force-duplicates-manager>
+
+<span lwc-2qpe2t0sbck="" class="test-id__field-value slds-size_1-of-1">
+   <slot lwc-2qpe2t0sbck="" name="inputField">
+      <records-record-layout-text-area data-input-element-id="input-field" slot="inputField" lwc-15ihn5f4djl-host="">
+         <lightning-textarea lwc-15ihn5f4djl="" variant="label-stacked" class="slds-form-element slds-form-element_stacked" lwc-2c0jakuf71q-host="">
+            <label lwc-2c0jakuf71q="" class="slds-form-element__label" for="input-4020" part="label">
+               Description
+               <slot lwc-2c0jakuf71q="" name="label-end"></slot>
+            </label>
+            <div class="slds-form-element__control slds-grow textarea-container" lwc-2c0jakuf71q="">
+               <grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none;"></grammarly-extension>
+               <grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none;"></grammarly-extension>
+               <textarea class="slds-textarea" part="textarea" lwc-2c0jakuf71q="" id="input-4020" maxlength="32000" spellcheck="false"></textarea>
+            </div>
+         </lightning-textarea>
+      </records-record-layout-text-area>
+   </slot>
+</span>
+
+</div>===JAVA===
+
+package com.salesforce.pages;
+
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+
+public class EditContactPage extends ProjectSpecificMethods {
+
+	public EditContactPage clickDropdown() {
+
+		clickUsingJs(locateElement(Locators.XPATH, "//span[@class='slds-icon_container slds-icon-utility-down']/span"));
+		reportStep("Clicked dropdown Successfully", "pass");
+		return this;
+	}
+
+	public EditContactPage clickEdit() {        
+		clickUsingJs(locateElement(Locators.XPATH, "//a[@title='Edit']//div"));
+		reportStep("Clicked Edit Successfully", "pass");
+		return this;
+	}
+
+	public EditContactPage enterPhoneNumber(String Phno) {
+		typeAndEnter(locateElement(Locators.XPATH, "//input[@name='Phone']"), Phno);
+		reportStep("Entered "+Phno+"successfully ", "pass");
+		return this;
+	}
+
+	public VerifyEditContactPage clickSaveOnEdit() {
+		click(locateElement(Locators.XPATH, "//button[text()='Save']"));
+		reportStep("Clicked Save button Successfully", "pass");
+		return new VerifyEditContactPage();
+	}
+
+	public EditContactPage enterDescription() {
+		click(locateElement(Locators.XPATH, "//label[contains(text(),'Description')]//following::textarea"));
+		reportStep("Description entered Successfully", "pass");
+		return this;
+	}
+
+}

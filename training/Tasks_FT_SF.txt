@@ -1,0 +1,154 @@
+===HTML===
+<lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="xx-small" variant="inverse" lwc-6qul4k2dv7m-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-6qul4k2dv7m="" data-key="down" class="slds-icon slds-icon_xx-small"><g lwc-6qul4k2dv7m=""><path d="M83 140h354c10 0 17 13 9 22L273 374c-6 8-19 8-25 0L73 162c-7-9-1-22 10-22z" lwc-6qul4k2dv7m=""></path></g></svg></lightning-primitive-icon>
+
+<a data-target-selection-name="sfdc:StandardButton.Task.NewTask" data-aura-rendered-by="8878:0" href="javascript:void(0);" role="menuitem" aria-disabled="false" tabindex="0" title="New Task" class=""><!--render facet: 8823:0--><div title="New Task" data-aura-rendered-by="8891:0" class="forceActionLink" data-aura-class="forceActionLink"><!--render facet: 8892:0-->New Task</div></a>
+
+<input role="combobox" aria-autocomplete="list" maxlength="500" aria-expanded="false" aria-haspopup="true" type="text" aria-describedby="217:10794;a_lookupSelectionAssistiveText" id="217:10794;a" class="default input uiInput uiInputTextForAutocomplete uiInput--default uiInput--input uiInput uiAutocomplete uiInput--default uiInput--lookup" aria-activedescendant="" data-aura-rendered-by="311:10794;a" data-aura-class="uiInput uiInputTextForAutocomplete uiInput--default uiInput--input uiInput uiAutocomplete uiInput--default uiInput--lookup" data-interactive-lib-uid="58" spellcheck="false" autocomplete="off" autocorrect="off" title="Search Contacts" placeholder="Search Contacts...">
+
+<div data-aura-rendered-by="729:10794;a" class="uiInput supportInputTextArea uiInput--default uiInput--textarea" data-aura-class="uiInput supportInputTextArea uiInput--default uiInput--textarea"><label for="589:10794;a" class="label inputLabel uiLabel-left form-element__label uiLabel" data-aura-rendered-by="724:10794;a" data-aura-class="uiLabel"><span id="589:10794;a-label" class="" data-aura-rendered-by="725:10794;a">Comments</span><!--render facet: 727:10794;a--><!--render facet: 728:10794;a--></label><div data-aura-rendered-by="593:10794;a"><!--render facet: 600:10794;a--><!--render facet: 601:10794;a--><!--render facet: 603:10794;a--><!--render facet: 605:10794;a--><span id="quickTextKeyboardTip" data-aura-rendered-by="606:10794;a">Tip: Type Control + period to insert quick text.</span><textarea role="textbox" aria-labelledby="608:10794;a-label" maxlength="32000" aria-describedby="quickTextKeyboardTip" id="589:10794;a" placeholder="" rows="2" class="textarea textarea uiInput uiInputTextArea uiInput--default uiInput--textarea" cols="20" data-aura-rendered-by="612:10794;a" data-aura-class="uiInput uiInputTextArea uiInput--default uiInput--textarea" data-interactive-lib-uid="63"></textarea><!--render facet: 615:10794;a--></div></div>
+
+<a data-target-selection-name="sfdc:StandardButton.Task.Edit" data-aura-rendered-by="10480:0" href="javascript:void(0);" role="menuitem" aria-disabled="false" tabindex="0" title="Edit"><!--render facet: 10223:0--><div title="Edit" data-aura-rendered-by="10542:0" class="forceActionLink" data-aura-class="forceActionLink"><!--render facet: 10543:0-->Edit</div></a>
+
+<table lwc-71geokdeko1="" class="slds-datepicker__month" role="grid"><thead lwc-71geokdeko1=""><tr lwc-71geokdeko1="" id="weekdays-element-1802"><th scope="col" lwc-71geokdeko1="" id="Sunday-1802"><abbr lwc-71geokdeko1="" title="Sunday">Sun</abbr></th><th scope="col" lwc-71geokdeko1="" id="Monday-1802"><abbr lwc-71geokdeko1="" title="Monday">Mon</abbr></th><th scope="col" lwc-71geokdeko1="" id="Tuesday-1802"><abbr lwc-71geokdeko1="" title="Tuesday">Tue</abbr></th><th scope="col" lwc-71geokdeko1="" id="Wednesday-1802"><abbr lwc-71geokdeko1="" title="Wednesday">Wed</abbr></th><th scope="col" lwc-71geokdeko1="" id="Thursday-1802"><abbr lwc-71geokdeko1="" title="Thursday">Thu</abbr></th><th scope="col" lwc-71geokdeko1="" id="Friday-1802"><abbr lwc-71geokdeko1="" title="Friday">Fri</abbr></th><th scope="col" lwc-71geokdeko1="" id="Saturday-1802"><abbr lwc-71geokdeko1="" title="Saturday">Sat</abbr></th></tr></thead><tbody lwc-71geokdeko1=""><tr lwc-71geokdeko1=""><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-02-23" aria-label="2025-02-23" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">23</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-02-24" aria-label="2025-02-24" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">24</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-02-25" aria-label="2025-02-25" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">25</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-02-26" aria-label="2025-02-26" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">26</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-02-27" aria-label="2025-02-27" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">27</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-02-28" aria-label="2025-02-28" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">28</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-01" aria-label="2025-03-01"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">1</span></td></tr><tr lwc-71geokdeko1=""><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-02" aria-label="2025-03-02"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">2</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-03" aria-label="2025-03-03"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">3</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="date" tabindex="0" data-value="2025-03-04" aria-label="2025-03-04" class="slds-is-today"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">4</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-05" aria-label="2025-03-05"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">5</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-06" aria-label="2025-03-06"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">6</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-07" aria-label="2025-03-07"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">7</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-08" aria-label="2025-03-08"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">8</span></td></tr><tr lwc-71geokdeko1=""><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-09" aria-label="2025-03-09"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">9</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-10" aria-label="2025-03-10"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">10</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-11" aria-label="2025-03-11"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">11</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-12" aria-label="2025-03-12"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">12</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-13" aria-label="2025-03-13"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">13</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-14" aria-label="2025-03-14"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">14</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-15" aria-label="2025-03-15"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">15</span></td></tr><tr lwc-71geokdeko1=""><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-16" aria-label="2025-03-16"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">16</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-17" aria-label="2025-03-17"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">17</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-18" aria-label="2025-03-18"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">18</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-19" aria-label="2025-03-19"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">19</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-20" aria-label="2025-03-20"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">20</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-21" aria-label="2025-03-21"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">21</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-22" aria-label="2025-03-22"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">22</span></td></tr><tr lwc-71geokdeko1=""><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-23" aria-label="2025-03-23"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">23</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-24" aria-label="2025-03-24"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">24</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-25" aria-label="2025-03-25"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">25</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-26" aria-label="2025-03-26"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">26</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-27" aria-label="2025-03-27"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">27</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-28" aria-label="2025-03-28"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">28</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-29" aria-label="2025-03-29"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">29</span></td></tr><tr lwc-71geokdeko1=""><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-30" aria-label="2025-03-30"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">30</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-03-31" aria-label="2025-03-31"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">31</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-04-01" aria-label="2025-04-01" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">1</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-04-02" aria-label="2025-04-02" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">2</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-04-03" aria-label="2025-04-03" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">3</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-04-04" aria-label="2025-04-04" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">4</span></td><td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-04-05" aria-label="2025-04-05" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">5</span></td></tr></tbody></table>
+
+===JAVA===
+package com.salesforce.pages;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+public class TasksPage extends ProjectSpecificMethods {
+	public TasksPage clickNewTask() {
+		pause(3000);
+		click(locateElement(Locators.XPATH,
+				"//span[text()='Show more actions']/preceding-sibling::lightning-primitive-icon"));
+		pause(3000);
+		clickUsingJs(locateElement(Locators.XPATH, "//div[text()='New Task']"));
+		reportStep("New task is clicked sucessfully", "pass");
+		return this;
+	}
+	public TasksPage selectContact() {
+		click(locateElement(Locators.XPATH, "(//span[text()='Name'])[3]/following::input"));
+		click(locateElement(Locators.XPATH, "//div[contains(@class,'primaryLabel')]"));
+		reportStep("Contact is selected sucessfully", "pass");
+		return this;
+	}
+	public TasksPage enterCommet(String comment) {
+		clearAndType(locateElement(Locators.XPATH, "(//span[text()='Comments'])[2]/following::textarea"), comment);
+		reportStep("Contact is selected sucessfully", "pass");
+		return this;
+	}
+	public TasksPage clickSaveButton() {
+		click(locateElement(Locators.XPATH, "//span[text()='Save']"));
+		reportStep("Save button is clicked sucessfully", "pass");
+		return this;
+	}
+	public TasksPage verifyTheMessage() {
+		String elementText = getElementText(
+				locateElement(Locators.XPATH, "//span[@class='genericError uiOutputText']"));
+		if (elementText.contains("Review the errors on this page.")) {
+			reportStep("verified successfully", "pass");
+		} else
+			reportStep("not verified successfully", "fail");
+		return this;
+	}
+	public TasksPage enterSubject(String subject) {
+		clearAndType(locateElement(Locators.XPATH, "//label[text()='Subject']/following::input"), subject);
+		reportStep(" Subject is entered successfully", "pass");
+		return this;
+	}
+	public TasksPage selectStatus(String status) {
+		click(locateElement(Locators.XPATH, "(//span[text()='Status'])[2]/following::a"));
+		click(locateElement(Locators.XPATH, "//a[@title='" + status + "']"));
+		reportStep("Status is selected sucessfully", "pass");
+		return this;
+	}
+	public TasksPage verifyTasksCreated(String text) {
+		String elementText = getElementText(locateElement(Locators.XPATH,
+				"//span[contains(@class,'toastMessage slds-text-heading--small forceActionsText')]"));
+		if (elementText.contains(text)) {
+			reportStep("Task created successfully", "pass");
+		} else
+			reportStep("Task not created successfully", "fail");
+		return this;
+	}
+	public TasksPage selectRecentlyViewed() {
+		click(locateElement(Locators.XPATH, "//button[@title='Select a List View']"));
+		clickUsingJs(locateElement(Locators.XPATH, "//a[@role='option']//span[text()='Recently Viewed']"));
+		reportStep("Recently Viewed is selected sucessfully", "pass");
+		return this;
+	}
+	public TasksPage selectTableView() {
+		click(locateElement(Locators.XPATH, "//button[@title='Display as Split View']"));
+		click(locateElement(Locators.XPATH, "//span[text()='Table']"));
+		reportStep(" Table View is selected sucessfully", "pass");
+		return this;
+	}
+	public TasksPage clickEditDropdown() {
+		click(locateElement(Locators.XPATH, "//span[@class='slds-icon_container slds-icon-utility-down']/span"));
+		reportStep("Edit dropdown is clicked sucessfully", "pass");
+		return this;
+	}
+	public TasksPage clickEditButton() {
+		clickUsingJs(locateElement(Locators.XPATH, "//div[text()='Edit']"));
+		reportStep("Edit button is clicked sucessfully", "pass");
+		return this;
+	}
+	public String addDate(int num) {
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		Calendar cal = Calendar.getInstance();
+		cal.add(Calendar.DATE, num);
+		String format = sdf.format(cal.getTime());
+		System.out.println(format);
+		return format;
+	}
+	public TasksPage enterDate(int num) {
+		String selectDate = addDate(num);
+		JavascriptExecutor js = ((JavascriptExecutor) getDriver());
+		WebElement FromDate = locateElement(Locators.XPATH, "//label[text()='Due Date']/following::input");
+		js.executeScript("arguments[0]. value='" + selectDate + "';", FromDate);
+		reportStep(" Date is entered successfully", "pass");
+		return this;
+	}
+	public TasksPage selectPriority(String priority) {
+		clickUsingJs(locateElement(Locators.XPATH, "(//span[text()='Priority'])[2]/following::a"));
+		clickUsingJs(locateElement(Locators.XPATH, "//a[text()='" + priority + "']"));
+		reportStep("Priority is selected sucessfully", "pass");
+		return this;
+	}
+	public TasksPage clickSaveEditButton() {
+		click(locateElement(Locators.XPATH, "(//span[text()='Save'])[2]"));
+		reportStep("Save button is clicked sucessfully", "pass");
+		return this;
+	}
+	public TasksPage verifyEditIsSaved(String text) {
+		pause(2000);
+		String elementText = getElementText(locateElement(Locators.XPATH,
+				"//span[contains(@class,'toastMessage slds-text-heading--small forceActionsText')]"));
+		if (elementText.contains(text)) {
+			reportStep("Task edited successfully", "pass");
+		} else
+			reportStep("Task not edited successfully", "fail");
+		return this;
+	}
+	public TasksPage clickDeleteButton() {
+		click(locateElement(Locators.XPATH, "(//li[@class='uiMenuItem'])[3]/a"));
+		click(locateElement(Locators.XPATH, "//span[text()='Delete']"));
+		reportStep("Delete button is clicked sucessfully", "pass");
+		return this;
+	}
+	public TasksPage verifyTaskDeleted(String text) {
+		pause(2000);
+		String elementText = getElementText(locateElement(Locators.XPATH,
+				"//span[contains(@class,'toastMessage slds-text-heading--small forceActionsText')]"));
+		if (elementText.contains(text)) {
+			reportStep("Task deleted successfully", "pass");
+		} else
+			reportStep("Task not deleted successfully", "fail");
+		return this;
+	}
+}

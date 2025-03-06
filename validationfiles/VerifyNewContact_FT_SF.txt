@@ -1,0 +1,86 @@
+===HTML===
+<input lwc-4kb6kaqheak="" class="slds-combobox__input slds-input" id="combobox-input-360" type="text" role="combobox" aria-expanded="false" aria-haspopup="listbox" autocomplete="off" data-value="" placeholder="Search Accounts..." maxlength="255" aria-disabled="false" part="input" aria-controls="dropdown-element-360" aria-autocomplete="list">
+
+<span lwc-3povdhm22r3="" title="New Account">New Account</span>
+
+<input lwc-4kb6kaqheak="" class="slds-combobox__input slds-input" id="combobox-input-1144" type="text" role="combobox" aria-expanded="false" aria-haspopup="listbox" autocomplete="off" data-value="" placeholder="Search Accounts..." maxlength="255" aria-disabled="false" aria-autocomplete="list" part="input" aria-controls="dropdown-element-1144">
+
+<lightning-base-combobox-item lwc-4kb6kaqheak="" class="slds-media slds-listbox__option slds-media_center slds-listbox__option_entity slds-has-focus" data-item-id="combobox-input-1144-0" data-value="001J200000EVosCIAT" role="option" id="combobox-input-1144-0-1144" aria-checked="false" aria-selected="false" lwc-3povdhm22r3-host=""><span lwc-3povdhm22r3="" class="slds-media__figure slds-listbox__option-icon"><lightning-icon lwc-3povdhm22r3="" icon-name="standard:account" class="slds-icon-standard-account slds-icon_container" lwc-4897l11qtae-host=""><span lwc-4897l11qtae="" style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, rgb(88, 103, 232))" part="boundary"><lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="small" variant="inverse" lwc-65kf0ji2vtl-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 100 100" part="icon" lwc-65kf0ji2vtl="" data-key="account" class="slds-icon slds-icon_small"><g lwc-65kf0ji2vtl=""><path d="M79 51.1c.1-2.1-1.4-2.7-2-2.7H55.2c-1.9 0-2.2 2-2.2 2.2V74h26zM64 67.9a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm0-10.2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm10 10.2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm0-10.2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zM59 40.3V28.7c.1-2.1-1.4-2.7-2-2.7H23.2c-1.9 0-2.2 2-2.2 2.2V74h26V44.7s0-2.4 2.2-2.4h7.9c1.1 0 1.9-1.2 1.9-2zM32 66.9a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm0-10.3a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm0-10.2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm0-10.2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm11 30.7a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm0-10.3a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm0-10.2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm0-10.2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2zm11 0a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2c0-1.1.9-2 2-2h2a2 2 0 012 2z" lwc-65kf0ji2vtl=""></path></g></svg></lightning-primitive-icon></span></lightning-icon></span><span lwc-3povdhm22r3="" class="slds-media__body"><span lwc-3povdhm22r3="" class="slds-listbox__option-text slds-listbox__option-text_entity"><span lwc-3povdhm22r3="" title="Logeshwari">Logeshwari</span></span></span></lightning-base-combobox-item>
+
+ <button lwc-40a585din3p="" class="slds-button slds-button_brand" aria-disabled="false" name="SaveEdit" type="button" part="button" kx-scope="button-brand" kx-type="ripple" style="">Save</button>
+
+ <div data-key="success" class="slds-theme--success slds-notify--toast slds-notify slds-notify--toast forceToastMessage" data-aura-rendered-by="2200:0" data-aura-class="forceToastMessage" data-f6-region=""><span role="hidden" tabindex="0" data-toast-start="" data-aura-rendered-by="2202:0"></span><div tabindex="0" class="slds-list--inline" data-aura-rendered-by="2203:0"><lightning-icon icon-name="utility:success" class="slds-icon-utility-success toastIcon slds-m-right--small slds-no-flex slds-align-top slds-icon_container" data-data-rendering-service-uid="567" data-aura-rendered-by="2205:0" lwc-4897l11qtae-host=""><span lwc-4897l11qtae="" style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, transparent)" part="boundary"><lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="small" variant="inverse" lwc-601m5kls2of-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-601m5kls2of="" data-key="success" class="slds-icon slds-icon_small"><g lwc-601m5kls2of=""><path d="M260 20a240 240 0 100 480 240 240 0 100-480zm134 180L241 355c-6 6-16 6-22 0l-84-85c-6-6-6-16 0-22l22-22c6-6 16-6 22 0l44 45a10 10 0 0015 0l112-116c6-6 16-6 22 0l22 22c7 6 7 16 0 23z" lwc-601m5kls2of=""></path></g></svg></lightning-primitive-icon><span class="slds-assistive-text" lwc-4897l11qtae="">Success notification.</span></span></lightning-icon><div class="toastContent slds-notify__content slds-align-middle" data-aura-rendered-by="2206:0"><div class="slds-hyphenate" data-aura-rendered-by="2207:0"><!--render facet: 2208:0--><div id="toastDescription2198:0" data-aura-rendered-by="2209:0"><span class="toastMessage slds-text-heading--small forceActionsText" data-aura-rendered-by="2214:0" data-aura-class="forceActionsText">Account "<!--render facet: 2222:0--><a href="javascript:void(0)" title="Logeshwari" data-aura-rendered-by="2239:0" class="forceActionLink" data-aura-class="forceActionLink"><div title="" data-aura-rendered-by="2240:0"><!--render facet: 2241:0-->Logeshwari</div></a>" was created.</span></div></div><span class="slds-assistive-text" data-aura-rendered-by="2227:0">Press Control + F6 to navigate to the next toast notification or focusable region.</span></div><div class="slds-notify__close" data-aura-rendered-by="2230:0"><button class="slds-button slds-button_icon toastClose slds-button_icon-inverse slds-button_icon-bare" data-aura-rendered-by="2231:0"><span aria-hidden="true" data-aura-rendered-by="2232:0"><lightning-icon icon-name="utility:close" class="slds-icon-utility-close slds-icon_container" data-aura-rendered-by="2233:0" lwc-4897l11qtae-host=""><span lwc-4897l11qtae="" style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, transparent)" part="boundary"><lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="xx-small" variant="inverse" lwc-3bq099ugqsh-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-3bq099ugqsh="" data-key="close" class="slds-icon slds-icon_xx-small"><g lwc-3bq099ugqsh=""><path d="M310 254l130-131c6-6 6-15 0-21l-20-21c-6-6-15-6-21 0L268 212a10 10 0 01-14 0L123 80c-6-6-15-6-21 0l-21 21c-6 6-6 15 0 21l131 131c4 4 4 10 0 14L80 399c-6 6-6 15 0 21l21 21c6 6 15 6 21 0l131-131a10 10 0 0114 0l131 131c6 6 15 6 21 0l21-21c6-6 6-15 0-21L310 268a10 10 0 010-14z" lwc-3bq099ugqsh=""></path></g></svg></lightning-primitive-icon></span></lightning-icon></span><span class="slds-assistive-text" data-aura-rendered-by="2234:0">Close</span></button></div></div><span role="hidden" tabindex="0" data-toast-end="" data-aura-rendered-by="2237:0"></span></div>
+
+===JAVA===
+package com.salesforce.pages;
+
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+
+public class VerifyNewContact extends ProjectSpecificMethods {
+
+	public VerifyNewContact verifyToastMeassage() {
+		
+		 contactName = getElementText(locateElement(Locators.XPATH, 
+				"//span[contains(@class,'toastMessage slds-text-heading--small forceActionsText')]"));
+		System.out.println(contactName);
+		return this;
+	}
+
+	// Method to click the Account Name field (opens the dropdown)
+	public VerifyNewContact clickAccountName() {
+		click(locateElement(Locators.XPATH, "//input[@aria-controls='dropdown-element-360']"));
+		reportStep("Clicked on Account Name field successfully.", "pass");
+		return this;
+	}
+
+	// Method to select "New Account" from the dropdown
+	public VerifyNewContact selectNewAccount() {
+		click(locateElement(Locators.XPATH, "//lightning-base-combobox-item[contains(@data-value, 'actionCreateNew')]"));
+		reportStep("Selected 'New Account' from the dropdown successfully.", "pass");
+		return this;
+	}
+
+	// Method to click the Parent Account field (opens the dropdown)
+	public VerifyNewContact clickParentAccountField() {
+		// Locate the Parent Account input field by its ID or unique attribute
+		click(locateElement(Locators.XPATH, "//input[@aria-controls='dropdown-element-1144']"));
+		reportStep("Clicked on Parent Account field successfully.", "pass");
+		return this;
+	}
+
+	// Method to select "Logeshwari" from the Parent Account dropdown list
+	public VerifyNewContact selectLogeshwariFromList() {
+		// Locate the dropdown item with the name "Logeshwari" and click it
+		click(locateElement(Locators.XPATH, "//lightning-base-combobox-item//span[text()='Logeshwari']"));
+		reportStep("Selected 'Logeshwari' from the Parent Account list successfully.", "pass");
+		return this;
+	}
+
+	// Method to click the "Save" button
+	public VerifyEditContactPage clickSaveButton() {
+		click(locateElement(Locators.XPATH, "//button[@name='SaveEdit' and contains(text(), 'Save')]"));
+		reportStep("Clicked on Save button successfully.", "pass");
+		return new VerifyEditContactPage();
+	}
+
+	// Method to verify toast message after account creation
+	public VerifyNewContact VerifyAccountCreatedToastMessage(String expectedAccountName) {
+		// Locate the toast message element
+		String toastMessage = getElementText(locateElement(Locators.XPATH,
+				"//span[contains(@class, 'toastMessage slds-text-heading--small forceActionsText')]"));
+
+		// Log the toast message for debugging
+		System.out.println("Toast Message: " + toastMessage);
+
+		// Verify if the expected account name is in the toast message
+		if (toastMessage.contains(expectedAccountName)) {
+			reportStep("Toast message verified successfully. Account '" + expectedAccountName + "' was created.", "pass");
+		} else {
+			reportStep("Toast message verification failed. Expected '" + expectedAccountName + "' but found '" + toastMessage + "'.", "fail");
+		}
+
+		return this;
+	}
+
+}

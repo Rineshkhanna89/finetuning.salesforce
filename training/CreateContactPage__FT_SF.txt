@@ -1,0 +1,46 @@
+===HTML===
+<button lwc-4kb6kaqheak="" class="slds-combobox__input slds-input_faux fix-slds-input_faux slds-combobox__input-value" id="combobox-button-4090" type="button" aria-expanded="false" aria-haspopup="listbox" name="salutation" role="combobox" data-value="--None--" aria-disabled="false" aria-label="Salutation" aria-required="false" part="input-button" aria-controls="dropdown-element-4090" data-position-id="lgcp-1000279"><span lwc-4kb6kaqheak="" class="slds-truncate" part="input-button-value">--None--</span></button>
+
+<input class="slds-input" part="input" lwc-enmikoh2qu="" id="input-4099" maxlength="40" name="HomePhone" type="text" aria-describedby="help-message-4099">
+
+<button lwc-40a585din3p="" class="slds-button slds-button_brand" aria-disabled="false" name="SaveEdit" type="button" part="button" kx-scope="button-brand" kx-type="ripple">Save</button>
+
+<td role="gridcell" lwc-71geokdeko1="" aria-selected="false" aria-current="false" tabindex="false" data-value="2025-02-24" aria-label="2025-02-24" class="slds-day_adjacent-month"><span class="slds-day" tabindex="-1" role="button" lwc-71geokdeko1="">24</span></td>
+
+===JAVA===
+
+package com.salesforce.pages;
+
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+
+public class CreateContactPage extends ProjectSpecificMethods {
+
+	public CreateContactPage selectSalutation() {
+		click(locateElement(Locators.XPATH, "//div[contains(@class,'slds-combobox__form-element slds-input-has-icon')]//button"));
+		clickUsingJs(locateElement(Locators.XPATH, "//span[text()='Mr.']"));
+		return this;
+	}
+
+	public CreateContactPage enterFirstName(String fname) {
+		clearAndType(locateElement(Locators.XPATH, "//label[text()='First Name']/following::input"),fname);
+		return this;
+	}
+
+	public CreateContactPage enterLastName(String lname) {
+		clearAndType(locateElement(Locators.XPATH, "//label[text()='Last Name']/following::input"),lname);
+		return this;
+	}
+
+	public VerifyNewContact clickSave() {
+		click(locateElement(Locators.XPATH, "//button[text()='Save']"));
+		return new VerifyNewContact();
+	}
+	
+	public CreateContactPage selectDate() {
+		click(locateElement(Locators.XPATH, "//tr/td[@data-value='2025-02-24']"));
+		return this;
+	}
+
+
+}
