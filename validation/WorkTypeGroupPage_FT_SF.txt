@@ -1,0 +1,103 @@
+
+===HTML===
+
+<input type="checkbox" part="checkbox" lwc-16hle61jt7i="" id="checkbox-1955" name="IsActive" value="">
+<a class="slds-context-bar__label-action dndItem" href="/lightning/o/WorkTypeGroup/home" title="Work Type Groups" tabindex="0" draggable="false" aria-current="page"><abbr class="slds-indicator_unsaved slds-p-right_xx-small" title="Not added to nav bar">*</abbr><span class="slds-truncate">Work Type Groups</span></a>
+<a lwc-10l86gl0bht="" href="/0VS/e?sObjectName=WorkTypeGroup&amp;save_new_url=%2F0VS%2Fe&amp;navigationLocation=LIST_VIEW" role="menuitem" tabindex="-1" draggable="false"><span lwc-10l86gl0bht="" class="slds-truncate"><lightning-icon lwc-10l86gl0bht="" class="slds-icon-text-default slds-m-right_x-small slds-shrink-none slds-icon-utility-add slds-icon_container" icon-name="utility:add" lwc-4897l11qtae-host=""><span lwc-4897l11qtae="" style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, transparent)" part="boundary"><lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="x-small" variant="" lwc-3220386utb1-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-3220386utb1="" data-key="add" class="slds-icon slds-icon-text-default slds-icon_x-small"><g lwc-3220386utb1=""><path d="M300 290h165c8 0 15-7 15-15v-30c0-8-7-15-15-15H300c-6 0-10-4-10-10V55c0-8-7-15-15-15h-30c-8 0-15 7-15 15v165c0 6-4 10-10 10H55c-8 0-15 7-15 15v30c0 8 7 15 15 15h165c6 0 10 4 10 10v165c0 8 7 15 15 15h30c8 0 15-7 15-15V300c0-6 4-10 10-10z" lwc-3220386utb1=""></path></g></svg></lightning-primitive-icon></span></lightning-icon><span lwc-10l86gl0bht="">New Work Type Group</span></span></a>
+<input class="slds-input" part="input" lwc-enmikoh2qu="" id="input-3432" maxlength="255" name="Name" required="" type="text" aria-describedby="help-message-3432" aria-invalid="true">
+<div lwc-enmikoh2qu="" part="input-text"><label lwc-enmikoh2qu="" class="slds-form-element__label slds-no-flex" for="input-3432" part="label"><abbr class="slds-required" part="required" lwc-enmikoh2qu="" title="required">*</abbr>Work Type Group Name<slot lwc-enmikoh2qu="" name="label-end"><slot lwc-66unc5l95ad="" name="label-end" slot="label-end"></slot></slot></label><div lwc-enmikoh2qu="" class="slds-form-element__control slds-grow" part="input-container" type="text"><input class="slds-input" part="input" lwc-enmikoh2qu="" id="input-3432" maxlength="255" name="Name" required="" type="text" aria-describedby="help-message-3432" aria-invalid="true"></div></div>
+<div lwc-2qpe2t0sbck="" class="slds-grid slds-size_1-of-1 label-stacked" data-target-selection-name="sfdc:RecordField.WorkTypeGroup.Description"><div lwc-2qpe2t0sbck="" aria-live="polite"></div><span lwc-2qpe2t0sbck="" class="test-id__field-value slds-size_1-of-1"><slot lwc-2qpe2t0sbck="" name="inputField"><records-record-layout-text-area data-input-element-id="input-field" slot="inputField" lwc-15ihn5f4djl-host=""><lightning-textarea lwc-15ihn5f4djl="" variant="label-stacked" class="slds-form-element slds-form-element_stacked" lwc-2c0jakuf71q-host=""><label lwc-2c0jakuf71q="" class="slds-form-element__label" for="input-3436" part="label">Description<slot lwc-2c0jakuf71q="" name="label-end"></slot></label><div class="slds-form-element__control slds-grow textarea-container" lwc-2c0jakuf71q=""><textarea class="slds-textarea" part="textarea" lwc-2c0jakuf71q="" id="input-3436" maxlength="32000"></textarea></div></lightning-textarea></records-record-layout-text-area></slot></span></div>
+<div lwc-24on3e8rogg="" part="combobox"><label lwc-24on3e8rogg="" class="slds-form-element__label" part="label" for="combobox-button-3443"><abbr class="slds-required" part="required" lwc-24on3e8rogg="" title="required">*</abbr>Group Type</label><div lwc-24on3e8rogg="" class="slds-form-element__control"><lightning-base-combobox lwc-24on3e8rogg="" exportparts="dropdown, option, input, input-button, input-button-value" class="slds-combobox_container" lwc-4kb6kaqheak-host="" data-position-id="lgcp-1000045"><div lwc-4kb6kaqheak="" class="slds-combobox_container"><div lwc-4kb6kaqheak="" class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click"><div lwc-4kb6kaqheak="" class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none"><button lwc-4kb6kaqheak="" class="slds-combobox__input slds-input_faux fix-slds-input_faux slds-combobox__input-value" id="combobox-button-3443" type="button" aria-expanded="false" aria-haspopup="listbox" role="combobox" data-value="Default" aria-disabled="false" aria-label="Group Type" aria-required="true" part="input-button" aria-controls="dropdown-element-3443" data-position-id="lgcp-1000046"><span lwc-4kb6kaqheak="" class="slds-truncate" part="input-button-value">Default</span></button><div lwc-4kb6kaqheak="" class="slds-input__icon-group slds-input__icon-group_right"><lightning-icon lwc-4kb6kaqheak="" class="slds-input__icon slds-input__icon_right slds-icon-utility-down slds-icon_container" icon-name="utility:down" lwc-4897l11qtae-host=""><span lwc-4897l11qtae="" style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, transparent)" part="boundary"><lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="xx-small" variant="" lwc-6qul4k2dv7m-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-6qul4k2dv7m="" data-key="down" class="slds-icon slds-icon-text-default slds-icon_xx-small"><g lwc-6qul4k2dv7m=""><path d="M83 140h354c10 0 17 13 9 22L273 374c-6 8-19 8-25 0L73 162c-7-9-1-22 10-22z" lwc-6qul4k2dv7m=""></path></g></svg></lightning-primitive-icon></span></lightning-icon></div></div><div lwc-4kb6kaqheak="" class="slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_fluid slds-dropdown_left" id="dropdown-element-3443" data-dropdown-element="" role="listbox" part="dropdown overlay" aria-label="Group Type" data-position-id="lgcp-1000047" style="position: fixed; z-index: 9115; left: 42px; right: auto; top: 170px; width: 740.667px;"><lightning-base-combobox-item lwc-4kb6kaqheak="" class="slds-media slds-listbox__option slds-media_center slds-media_small slds-listbox__option_plain" data-item-id="combobox-button-3443-0" exportparts="option" data-value="" role="option" id="combobox-button-3443-0-3443" aria-checked="false" aria-selected="false" lwc-7co8ha3nedg-host=""><span lwc-7co8ha3nedg="" class="slds-media__figure slds-listbox__option-icon"></span><span lwc-7co8ha3nedg="" class="slds-media__body"><span lwc-7co8ha3nedg="" title="--None--">--None--</span></span></lightning-base-combobox-item><lightning-base-combobox-item lwc-4kb6kaqheak="" class="slds-media slds-listbox__option slds-media_center slds-media_small slds-listbox__option_plain" data-item-id="combobox-button-3443-1" exportparts="option" data-value="Default" role="option" id="combobox-button-3443-1-3443" aria-checked="true" aria-selected="true" lwc-7co8ha3nedg-host=""><span lwc-7co8ha3nedg="" class="slds-media__figure slds-listbox__option-icon"><lightning-icon lwc-7co8ha3nedg="" icon-name="utility:check" class="slds-icon-utility-check slds-icon_container" lwc-4897l11qtae-host=""><span lwc-4897l11qtae="" style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, transparent)" part="boundary"><lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="x-small" variant="" lwc-1e39mgvor8u-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-1e39mgvor8u="" data-key="check" class="slds-icon slds-icon-text-default slds-icon_x-small"><g lwc-1e39mgvor8u=""><path d="M191 425L26 259c-6-6-6-16 0-22l22-22c6-6 16-6 22 0l124 125a10 10 0 0015 0L452 95c6-6 16-6 22 0l22 22c6 6 6 16 0 22L213 425c-6 7-16 7-22 0z" lwc-1e39mgvor8u=""></path></g></svg></lightning-primitive-icon></span></lightning-icon></span><span lwc-7co8ha3nedg="" class="slds-media__body"><span lwc-7co8ha3nedg="" title="Default">Default</span></span></lightning-base-combobox-item><lightning-base-combobox-item lwc-4kb6kaqheak="" class="slds-media slds-listbox__option slds-media_center slds-media_small slds-listbox__option_plain" data-item-id="combobox-button-3443-2" exportparts="option" data-value="Capacity" role="option" id="combobox-button-3443-2-3443" aria-checked="false" aria-selected="false" lwc-7co8ha3nedg-host=""><span lwc-7co8ha3nedg="" class="slds-media__figure slds-listbox__option-icon"></span><span lwc-7co8ha3nedg="" class="slds-media__body"><span lwc-7co8ha3nedg="" title="Capacity">Capacity</span></span></lightning-base-combobox-item></div></div></div></lightning-base-combobox></div><div lwc-24on3e8rogg="" class="slds-form-element__help" id="help-text-3442" data-help-text="" role="status"></div></div>
+<button lwc-40a585din3p="" class="slds-button slds-button_brand" aria-disabled="false" name="SaveEdit" type="button" part="button" kx-scope="button-brand" kx-type="ripple">Save</button>
+
+
+===JAVA===
+
+package com.salesforce.pages;
+
+import com.framework.selenium.api.design.Locators;
+import com.framework.testng.api.base.ProjectSpecificMethods;
+
+public class WorkTypeGroupPage extends ProjectSpecificMethods {
+
+	public WorkTypeGroupPage clickWorkTypeGroupTab() {
+
+		click(locateElement(Locators.XPATH, "//span[contains(text(),'Work Type Groups')]/following::a[1]"));
+		reportStep("Work Type Tab DD is clicked successfully", "pass");
+		return this;
+	}
+	
+	public WorkTypeGroupPage clickNewWorkTypeGroup() {
+
+		clickUsingJs(locateElement(Locators.XPATH, "//span[text()='New Work Type Group']"));
+		reportStep("New Work Type Group is clicked successfully", "pass");
+		return this;
+	}
+	
+	public WorkTypeGroupPage enterWorkTypeGroupName(String gName) {
+		clearAndType(locateElement(Locators.XPATH, "(//span[text()='Work Type Group Name']/following::input[1])[2]"), gName);
+		reportStep(gName + "Work Type Group Name entered successfully", "pass");
+		return this;
+	}
+	
+	public WorkTypeGroupPage enterWorkTypeDesc(String desc) {
+		clearAndType(locateElement(Locators.XPATH, "//span[text()='Description']/following::textarea[1]"), desc);
+		reportStep(desc + "Description entered successfully", "pass");
+		return this;
+	}
+	
+	public WorkTypeGroupPage selectGroupType() {
+
+		click(locateElement(Locators.XPATH, "//span[text()='Group Type']/following::a[1]"));
+		click(locateElement(Locators.XPATH, "//a[text()='Capacity']"));
+		reportStep( "Capacity selected successfully", "pass");
+		return this;
+	}
+	
+	public WorkTypeGroupPage clickWorkTypeSaveButton() {
+
+		click(locateElement(Locators.XPATH, "//button[@title='Save']"));
+		reportStep("Save Button clicked successfully", "pass");
+		return this;
+	}
+	
+	public WorkTypeGroupPage verifyWorkTypeGroups(String text) {
+		verifyPartialText(locateElement(Locators.XPATH,
+				"//div[@class='slds-align-middle slds-hyphenate']//span"), text);
+		reportStep(text + "Work Type Created Successfully", "pass");
+		return this;
+	}
+	
+	public WorkTypeGroupPage enterWorkTypeSearchField(String search) {
+		typeAndEnter(locateElement(Locators.XPATH, "//input[@placeholder='Search this list...']"), search);
+		reportStep(search + "Search Field entered successfully", "pass");
+		return this;
+	}
+	
+	public WorkTypeGroupPage clickShowActionDD() {
+
+		click(locateElement(Locators.XPATH,
+				"//div[@class='forceVirtualActionMarker forceVirtualAction']/a[@role='button']"));
+		reportStep("Show Actions DD clicked successfully", "pass");
+		return this;
+	}
+	
+	public WorkTypeGroupPage clickEditLink() {
+
+        click(locateElement(Locators.XPATH, "//a[@title='Edit']"));
+        reportStep("Edit Link is clicked successfully", "pass");
+        return this;
+    }
+
+	public WorkTypeGroupPage checkIsActiveCheckbox() {
+		if (!locateElement(Locators.NAME, "IsActive").isSelected()) {
+			click(locateElement(Locators.NAME, "IsActive"));
+			reportStep("Is Active checkbox selected successfully", "pass");
+		} else {
+			reportStep("Is Active checkbox was already selected", "info");
+		}
+		return this;
+	}
+	
+
+}

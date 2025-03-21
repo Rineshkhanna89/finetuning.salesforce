@@ -1,0 +1,19 @@
+====HTML====
+<div lwc-24on3e8rogg="" part="combobox" class=""><label lwc-24on3e8rogg="" class="slds-form-element__label" part="label" for="combobox-button-581">Salutation</label><div lwc-24on3e8rogg="" class="slds-form-element__control"><lightning-base-combobox lwc-24on3e8rogg="" exportparts="dropdown, option, input, input-button, input-button-value" class="slds-combobox_container" lwc-4kb6kaqheak-host=""><div lwc-4kb6kaqheak="" class="slds-combobox_container"><div lwc-4kb6kaqheak="" class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click"><div lwc-4kb6kaqheak="" class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none"><button lwc-4kb6kaqheak="" class="slds-combobox__input slds-input_faux fix-slds-input_faux slds-combobox__input-value" id="combobox-button-581" type="button" aria-expanded="false" aria-haspopup="listbox" name="salutation" role="combobox" data-value="--None--" aria-disabled="false" aria-label="Salutation" aria-required="false" part="input-button" aria-controls="dropdown-element-581"><span lwc-4kb6kaqheak="" class="slds-truncate" part="input-button-value">--None--</span></button><div lwc-4kb6kaqheak="" class="slds-input__icon-group slds-input__icon-group_right"><lightning-icon lwc-4kb6kaqheak="" class="slds-input__icon slds-input__icon_right slds-icon-utility-down slds-icon_container" icon-name="utility:down" lwc-4897l11qtae-host=""><span lwc-4897l11qtae="" style="--sds-c-icon-color-background: var(--slds-c-icon-color-background, transparent)" part="boundary"><lightning-primitive-icon lwc-4897l11qtae="" exportparts="icon" size="xx-small" variant="" lwc-6qul4k2dv7m-host=""><svg focusable="false" aria-hidden="true" viewBox="0 0 520 520" part="icon" lwc-6qul4k2dv7m="" data-key="down" class="slds-icon slds-icon-text-default slds-icon_xx-small"><g lwc-6qul4k2dv7m=""><path d="M83 140h354c10 0 17 13 9 22L273 374c-6 8-19 8-25 0L73 162c-7-9-1-22 10-22z" lwc-6qul4k2dv7m=""></path></g></svg></lightning-primitive-icon></span></lightning-icon></div></div><div lwc-4kb6kaqheak="" class="slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_fluid slds-dropdown_left" id="dropdown-element-581" data-dropdown-element="" role="listbox" part="dropdown overlay" aria-label="Salutation"></div></div></div></lightning-base-combobox></div><div lwc-24on3e8rogg="" class="slds-form-element__help" id="help-text-580" data-help-text="" role="status"></div></div>
+
+
+===JAVA===
+
+package com.salesforce.pages;
+
+import com.framework.selenium.api.base.SeleniumBase;
+import com.framework.selenium.api.design.Locators;
+
+public class NewCampaignPage extends SeleniumBase{
+    public NewCampaignPage selectType(String type) {
+		selectComboUsingVisibleText("//span[text()='Type']/following::a[1]",type);
+        reportStep("The type "+type+" is selected in the New Campaign page", "PASS");
+        return this;
+    }
+}
+    

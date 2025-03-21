@@ -1,0 +1,19 @@
+====HTML====
+<a class="slds-context-bar__label-action dndItem" href="/lightning/o/Campaign/home" title="Campaigns" tabindex="0" draggable="false" aria-current="false"><span class="slds-truncate">Campaigns</span></a>
+
+
+===JAVA===
+
+package com.salesforce.pages;
+
+import com.framework.selenium.api.base.SeleniumBase;
+import com.framework.selenium.api.design.Locators;
+
+public class CampaignsPage extends SeleniumBase{
+	
+    public LeadPage clickCampaigns() {
+        clickUsingJs(locateElement(Locators.XPATH, "//a[@title='Campaigns']"));
+        reportStep("Campaigns tab is clicked", "PASS");
+        return this;
+    }
+}

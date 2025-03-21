@@ -1,7 +1,7 @@
 class TestleafAPI {
     constructor(apiKey) {
         this.apiKey = apiKey;
-        this.baseUrl = 'https://api.testleaf.com/openai/v1/chat/completions';
+        this.baseUrl = 'https://api.testleaf.com/ai/v1/chat/completions';
     }
 
     async sendMessage(prompt, modelName) {

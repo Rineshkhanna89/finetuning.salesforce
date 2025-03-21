@@ -41,11 +41,11 @@ def create_json_line(html, java, user_action):
     }
 
 def main():
-    # Get all .txt files in the 'training' folder.
-    input_files = glob.glob(os.path.join("training", "*.txt"))
+    # Get all .txt files in the 'validation' folder.
+    input_files = glob.glob(os.path.join("validation", "*.txt"))
     
     user_action = "Generate a Selenium Java page object class for this DOM."
-    output_file = "training_data_chat.jsonl"
+    output_file = "validation_data_chat.jsonl"
     
     # Open the output file once in append mode.
     with open(output_file, "a", encoding='utf-8') as out_f:
